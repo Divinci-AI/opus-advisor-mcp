@@ -1,0 +1,45 @@
+{
+  "name": "opus-advisor-mcp",
+  "version": "1.0.0",
+  "description": "MCP server that lets Claude Code (Sonnet/Haiku) consult Opus as a strategic advisor via the CLI",
+  "type": "module",
+  "bin": {
+    "opus-advisor": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "claude",
+    "opus",
+    "sonnet",
+    "advisor",
+    "claude-code",
+    "anthropic",
+    "ai",
+    "model-context-protocol"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Divinci-AI/opus-advisor-mcp.git"
+  },
+  "license": "MIT",
+  "author": "Divinci AI",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0"
+  }
+}
