@@ -1,6 +1,6 @@
 # opus-advisor-mcp
 
-An MCP server that lets Claude Code consult Opus as a strategic advisor mid-task. Run your session on Sonnet or Haiku, and escalate complex decisions to Opus on demand — using your existing Claude Code subscription.
+An MCP server that lets Claude Code consult Opus as a strategic advisor mid-task. Run your session on Sonnet or Haiku, and escalate complex decisions to Claude Opus 4.7 on demand — using your existing Claude Code subscription.
 
 Inspired by [Anthropic's Advisor Strategy](https://claude.com/blog/the-advisor-strategy).
 

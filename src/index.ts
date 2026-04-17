@@ -362,7 +362,7 @@ const server = new McpServer(
 server.registerTool("consult_opus", {
   title: "Consult Opus Advisor",
   description:
-    "Consult Claude Opus 4.6 for strategic advice. Opus runs via the Claude Code CLI " +
+    "Consult Claude Opus 4.7 for strategic advice. Opus runs via the Claude Code CLI " +
     "with your existing subscription — no API key needed. The advisor maintains a " +
     "per-project consultation log for continuity across calls. History is capped by " +
     "both entry count (5) and token budget (~6K tokens) to prevent context bloat. " +
