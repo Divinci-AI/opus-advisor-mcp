@@ -348,7 +348,7 @@ function runClaude(prompt: string, options: {
 // --- MCP Server ---
 
 const server = new McpServer(
-  { name: "opus-advisor", version: "1.0.0" },
+  { name: "opus-advisor", version: "1.1.0" },
   {
     instructions:
       "Consult Claude Opus as a strategic advisor via the Claude Code CLI. " +
